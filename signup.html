@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+    <title>YelpCamp</title>
+</head>
+<body>
+    <div class="coluna1">
+        <header class="header">
+            <img src="midia/Logo.svg" alt="Logo">
+            <p class="voltar"><a href="index.html">← Back to campgrounds</a></p>
+        </header>
+
+        <main class="signup">
+            <h1 class="titulo-signup">Start exploring camps from all around the world.</h1>
+            <form class="form" action="processar_cadastro.php" method="POST">
+                <label for="nome">Username:</label>
+                <input type="text" id="nome" name="nome" required><br><br>             
+                <label for="senha">Password:</label>
+                <input type="password" id="senha" name="senha" required><br><br>
+                <input type="submit" value="Create an account">
+            </form>
+            <p class="signin">Alreary a user?<a href="0">Sign In</a></p>
+        </main>
+    </div>
+    <div class="coluna2">
+        <div class="depoimento">
+            <p>"YelpCamp has honestly saved me hours of research time, and the camps on here are definitely well picked and added."</p>
+        </div>
+        
+        <div class="perfil">
+            <img src="midia/User Testimonial.svg" alt="Foto do Perfil">
+            <h2>May Andrews</h2>
+            <p>Professional Hiker</p>
+        </div>
+    </div>
+</body>
+</html>
