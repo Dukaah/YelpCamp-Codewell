@@ -127,12 +127,29 @@ html, body {
 
 /* Página SignUp*/
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Montserrat:wght@400;800&family=Poppins:ital,wght@0,300;0,700;0,800;1,500&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Página SignUp*/
+
 .coluna1{
     width: 50%;
     height: 100vh;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
-    display: inline-block;
+
 }
 
 .coluna2 {
@@ -192,19 +209,20 @@ html, body {
     margin-bottom: 2%;
     margin-left: 20%;
     margin-top: 5%;
-    width: 14%;
     min-width: 150px;
     display: flex;
+    justify-content: flex-start;
 }
 
-.header > a {
+.header > p {
     font-size: 15px;
-    text-decoration: none;
     color: grey;
+    margin-left: 100px;
+    position: relative;
 }
 
-.voltar {
-    display: inline-block;
+.header > p > a{
+    color: grey;
 }
 
 .titulo-signup {
@@ -276,6 +294,7 @@ html, body {
     font-weight: 700;
     margin-left: 1%;
 }
+
 
 @media screen and (max-width: 768px) {
     /* Estilos para tablets e dispositivos móveis */
