@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Campground</title>
+    <link rel="shortcut icon" href="midia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="notificacao">
+        <p>This project was made by <a class="noti1" href="https://github.com/Dukaah" target="_blank">Matheus Eduardo</a> and designed by <a class="noti1"  href="https://codewell.cc" target="_blank">Codewell</a></p>
+    </div>
+    <header id="header-home">
+        <div class="header-home1">
+            <img src="midia/Logo.svg" alt="Logo">
+            <a class="b-c" href="home.html"><p>Home</p></a>
+        </div>
+        <div class="header-home2">
+            <a class="login-home" href="signup.html">Login</a>
+            <a href="signup.html"><button class="button-home" onclick="">Create an account</button></a>
+        </div>
+    </header>
+    <main class="mainaddcamp">
+        <h1>Add New Campground</h1>
+        <form class="form-add" action="cadastrodecamp.php" method="POST">
+            <label for="nome">Campground Name</label>
+            <input type="text" id="nome" name="nome" required>           
+            <label for="senha">Price</label>
+            <input type="text" id="senha" name="senha" required>
+            <label for="image">Image</label>
+            <input type="text" id="image" name="senha" required>
+            <label for="description">Description</label>
+            <input type="text" id="image" name="senha" required>
+            <input class="button-add" type="submit" value="Add Campground">
+        </form>
+    </main>
+
+</body>
+</html>
